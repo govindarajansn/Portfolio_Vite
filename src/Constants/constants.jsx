@@ -44,6 +44,10 @@ import {
   raspIcon,
   reactIcon,
   viteIcon,
+  auThumbnail,
+  neuThumbnail,
+  virtusaThumbnail,
+  sapThumbnail,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -108,6 +112,10 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+  {
+    id: "career",
+    title: "Career",
   },
 ];
 
@@ -325,9 +333,74 @@ const skills = [
   },
 ];
 
+// auThumbnail,
+// neuThumbnail,
+// virtusaThumbnail,
+
+const careerData = [
+  {
+    date: "2024 - present",
+    title: "SAP America Inc.",
+    location: "Newton Square, PA",
+    description:
+      "Tech enthusiast working with various SAP proprietary technologies to innovate new products for the SAP Software Asset Management Team",
+    iconSrc: sapThumbnail,
+    iconBg: "rgb(33, 150, 243)",
+    iconColor: "#000",
+  },
+  {
+    date: "2022 - present",
+    title: "Northeastern University",
+    location: "Boston, MA",
+    description:
+      "Passionate Graduate Student, seeking a challenging internship to apply my theoretical knowledge and contribute to a dynamic work environment",
+    iconSrc: neuThumbnail,
+    iconBg: "rgb(33, 150, 243)",
+    iconColor: "#000",
+  },
+  {
+    date: "2020 - 2022",
+    title: "Virtusa",
+    subtitle: "Full Stack Developer",
+    description:
+      "Proficient full-stack developer with a solid understanding of both front-end and back-end technologies. Adept at using modern technologies and frameworks to deliver outstanding user experiences and meet client requirements",
+    iconSrc: virtusaThumbnail,
+    iconBg: "#fff",
+    iconColor: "#fff",
+  },
+  {
+    date: "2020(Jun) - 2020(August)",
+    title: "Virtusa",
+    subtitle: "Associate Engineer, Intern",
+    description:
+      "Intensive three months of training and gained experience in a wide range of web development projects",
+    iconSrc: virtusaThumbnail,
+    iconBg: "#fff",
+    iconColor: "#fff",
+  },
+  {
+    date: "2016 - 2020",
+    title: "Anna University",
+    description:
+      "Completed B.Tech in Information Systems with a comprehensive understanding of programming languages, software development methodologies, and database management",
+    iconSrc: auThumbnail,
+    iconBg: "rgb(33, 150, 243)",
+    iconColor: "#fff",
+  },
+];
+
 const markerSvg = `<svg viewBox="-4 0 36 36">
     <path fill="currentColor" d="M14,0 C21.732,0 28,5.641 28,12.6 C28,23.963 14,36 14,36 C14,36 0,24.064 0,12.6 C0,5.641 6.268,0 14,0 Z"></path>
     <circle fill="black" cx="14" cy="14" r="7"></circle>
   </svg>`;
 
-export { icons, introduction, markerSvg, media, memoji, projects, skills };
+export {
+  icons,
+  introduction,
+  markerSvg,
+  media,
+  memoji,
+  projects,
+  skills,
+  careerData,
+};

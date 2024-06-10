@@ -1,11 +1,4 @@
-/*
-   Copyright (C), 2023-2024, Sara Echeverria (bl33h)
-   Author: Sara Echeverria
-   FileName: index.js
-   Version: I
-   Creation: 02/06/2023
-   Last modification: 03/06/2023
-*/
+
 
 // Logo
 import bl33hIcon from './logo/bl33hIcon.png';
@@ -45,6 +38,12 @@ import ticTacToeGame from './projects/tic-tac-toe-game.png';
 import tspThumbnail from './projects/tsp-thumbnail.jpeg';
 import teChronicle from './projects/Techronicle.png';
 
+//career
+import auThumbnail from './career/annauniversity.png';
+import neuThumbnail from './career/neu.png';
+import virtusaThumbnail from './career/virtusa.svg';
+import sapThumbnail from './career/SAPImg.jpeg';
+
 // Avatar
 import avatar from './avatar/avatar.png';
 
@@ -82,4 +81,8 @@ export {
   memoryGame,
   avatar,
   bl33hIcon,
+  auThumbnail,
+  neuThumbnail,
+  virtusaThumbnail,
+  sapThumbnail
 };
