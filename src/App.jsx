@@ -14,8 +14,8 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Career />
       {/* <Contact /> */}
     </>

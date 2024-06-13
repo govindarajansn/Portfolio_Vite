@@ -181,3 +181,50 @@ polyline {
     transform: rotate(360deg);
   }
 }
+
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.display-container {
+  display: flex;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: start;
+}
+
+.skill-heading{
+  font-size: 26px;
+    padding-left: 24px;
+    color: #cbbde5;
+}
+
+.skill-icons {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-section .skill-tab {
+  color: #212529;
+  padding: 1rem;
+  background-color: #a1a9b0;
+  /*background-color: rgba(104, 102, 102, 0.8);*/
+  border-radius: 15%;
+}
+
+.skills-section .skill-tab .col-4 {
+  flex: 0 0 auto;
+  width: 25.333333%;
+}

@@ -47,6 +47,42 @@ import sapThumbnail from './career/SAPImg.jpeg';
 // Avatar
 import avatar from './avatar/avatar.png';
 
+//About
+
+import web from './about/web.png';
+import backend from './about/backend.png';
+import frontend from './about/mobile.png';
+
+//skills
+
+
+import angular from './skills/ANGULAR.png';
+import aws from './skills/aws.png';
+import bootstrap from './skills/bootstrap.png';
+import cImg from './skills/c.png';
+import cplus from './skills/cplus.png';
+import css from './skills/css.png';
+import d3 from './skills/d3.svg';
+import expressjs from './skills/expressjs.png';
+import github from './skills/GITHUB.png';
+import html5 from './skills/HTML5.png';
+import java from './skills/java.png';
+import javascript from './skills/JAVASCRIPT.png';
+import jira from './skills/JAVASCRIPT.png';
+import jquery from './skills/jquery.png';
+import linux from './skills/linux.png';
+import microsoft from './skills/microsoft.png';
+import mongodb from './skills/MONGODB.png';
+import mysql from './skills/mysql.png';
+import nextjs from './skills/next-js.svg';
+import nodejs from './skills/nodejs.png';
+import python from './skills/PYTHON.png';
+import oracle from './skills/oracle.png';
+import react from './skills/REACT.png';
+import sass from './skills/sass.png';
+import spring from './skills/springboot.png';
+import tailwind from './skills/springboot.png';
+
 export {
   menu,
   close,
@@ -84,5 +120,34 @@ export {
   auThumbnail,
   neuThumbnail,
   virtusaThumbnail,
-  sapThumbnail
+  sapThumbnail,
+  web,
+  backend,
+  frontend,
+  angular,
+  aws,
+  bootstrap,
+  cImg,
+  cplus,
+  css,
+  expressjs,
+  github,
+  html5,
+  java,
+  javascript,
+  jira,
+  jquery,
+  linux,
+  microsoft,
+  mongodb,
+  mysql,
+  nextjs,
+  nodejs,
+  python,
+  d3,
+  oracle,
+  react,
+  sass,
+  spring,
+  tailwind
 };
