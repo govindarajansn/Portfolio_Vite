@@ -7,6 +7,17 @@
   src: url(/Fonts/Mario/SuperMario256.ttf);
 }
 
+:root {
+  --color-primary: #292d44;
+  --color-secondary: #cbbde5;
+  --color-background: #6b5463;
+  --border-radius-large: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  --border-radius-medium: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  --border-radius-small: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  --shadow-color: #292d44;
+  --scrollbar-display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +27,7 @@
 
 body {
   background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
-  background-color: #6b5463;
+  background-color: var(--color-background);
   position: relative;
   overflow-x: hidden;
   -webkit-overflow-x: hidden;
@@ -30,17 +41,17 @@ body {
 #repulse-div {
   -webkit-appearance: none;
   appearance: none;
-  -webkit-filter: drop-shadow(0 0 5rem #292d44);
-  filter: drop-shadow(0 0 5rem #292d44);
+  -webkit-filter: drop-shadow(0 0 5rem var(--shadow-color));
+  filter: drop-shadow(0 0 5rem var(--shadow-color));
 }
 
 #repulse-div>h1 {
-  -webkit-filter: drop-shadow(0 0 5rem #292d44);
-  filter: drop-shadow(0 0 5rem #292d44);
+  -webkit-filter: drop-shadow(0 0 5rem var(--shadow-color));
+  filter: drop-shadow(0 0 5rem var(--shadow-color));
 }
 
 #journey-scroll::-webkit-scrollbar {
-  display: none;
+  display: var(--scrollbar-display);
 }
 
 #journey-scroll {
@@ -71,7 +82,7 @@ polyline {
 
 .blob {
   animation: morph 3.6s linear infinite;
-  background: #292d44;
+  background: var(--color-primary);
   border-collapse: separate;
   background-size: cover;
   background-position: center;
@@ -82,21 +93,15 @@ polyline {
 
   0%,
   100% {
-    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-    -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-    -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    border-radius: var(--border-radius-large);
   }
 
   34% {
-    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-    -webkit-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
-    -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    border-radius: var(--border-radius-medium);
   }
 
   67% {
-    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    border-radius: var(--border-radius-small);
   }
 }
 
@@ -107,7 +112,7 @@ polyline {
 .bounce:hover {
   display: inline-block;
   animation: rubberband 0.8s ease-out;
-  color: #cbbde5;
+  color: var(--color-secondary);
 }
 
 @keyframes rubberband {
@@ -144,8 +149,8 @@ polyline {
   .drop-shadow-div {
     -webkit-appearance: none;
     appearance: none;
-    -webkit-filter: drop-shadow(0 0 1.5rem #cbbde5);
-    filter: drop-shadow(0 0 1.5rem #cbbde5);
+    -webkit-filter: drop-shadow(0 0 1.5rem var(--color-secondary));
+    filter: drop-shadow(0 0 1.5rem var(--color-secondary));
   }
 }
 
@@ -169,7 +174,7 @@ polyline {
   height: 80px;
   border-radius: 50%;
   border: 5px solid;
-  border-color: #cbbde5 transparent;
+  border-color: var(--color-secondary) transparent;
 }
 
 @keyframes rotation {
@@ -181,7 +186,6 @@ polyline {
     transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Skills
@@ -202,10 +206,10 @@ polyline {
   justify-content: start;
 }
 
-.skill-heading{
+.skill-heading {
   font-size: 26px;
-    padding-left: 24px;
-    color: #cbbde5;
+  padding-left: 24px;
+  color: var(--color-secondary);
 }
 
 .skill-icons {
@@ -220,7 +224,6 @@ polyline {
   color: #212529;
   padding: 1rem;
   background-color: #a1a9b0;
-  /*background-color: rgba(104, 102, 102, 0.8);*/
   border-radius: 15%;
 }
 
