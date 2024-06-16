@@ -531,7 +531,7 @@
 
 
 .vertical-timeline:before {
-    background: #22f755 !important;
+    background: #000 !important;
     content: "";
     height: 100%;
     left: 18px;
@@ -564,13 +564,22 @@
 
 .vertical-timeline-element-content {
     color: #000;
-    background: #fff;
+    background: #f5cac3;
     border-radius: 0.25em;
     -webkit-box-shadow: 0 3px 0 #ddd;
     box-shadow: 0 3px 0 #ddd;
     margin-left: 60px;
     padding: 1em;
     position: relative;
+}
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #f5cac3;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -581,7 +590,7 @@
         position: absolute;
         top: 6px;
         width: 100%;
-        color: beige;
+        color: #f5cac3;
     }
 }
 
@@ -623,5 +632,6 @@
 
 .img-fluid{
         border-radius: 50%;
+        background-color: #354f52;
 }
 

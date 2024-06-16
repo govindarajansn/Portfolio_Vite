@@ -117,7 +117,7 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! :)",
 
-    "Hi there! I'm Sneha, a tech enthusiast and graduate student pursuing my Master's in Information Systems in the vibrant city of Boston. My passion lies in crafting cutting-edge web applications and constantly exploring the latest technological advancements.",
+    "I'm Sneha, a tech enthusiast and graduate student pursuing my Master's in Information Systems in the vibrant city of Boston. My passion lies in crafting cutting-edge web applications and constantly exploring the latest technological advancements.",
 
     "When I'm not immersed in coding or brainstorming new ideas, you'll find me dancing my heart out, cuddling with my furry friends, or binge-watching the latest series on Netflix.",
 
@@ -141,10 +141,6 @@ export const navLinks = [
   {
     id: "career",
     title: "Career",
-  },
-  {
-    id: "contact",
-    title: "Contact",
   },
 ];
 

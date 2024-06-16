@@ -16,7 +16,7 @@ const About = () => {
           scale: 1,
           speed: 450,
         }}
-        className="xs:w-[200px] w-full bg-primary-400 rounded-xl border-4 border-primary-600 cursor-pointer"
+        className="xs:w-[200px] w-full bg-primary-700 rounded-xl border-4 border-primary-700 cursor-pointer"
       >
         <motion.div
           variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
@@ -24,9 +24,12 @@ const About = () => {
         >
           <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[230px] min-w-[200px] flex justify-evenly items-center flex-col">
             <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-            <h3 className="text-white text-[20px] font-bold text-center">
+            <h2
+              className="text-white text-[20px] font-bold text-center text-primary-800 text-5xl sm:text-6xl md:text-5xl"
+              style={{ fontFamily: "Morganite Black" }}
+            >
               {title}
-            </h3>
+            </h2>
           </div>
         </motion.div>
       </Tilt>
@@ -51,7 +54,11 @@ const About = () => {
                   stiffness: 100,
                   damping: 20,
                 }}
-                style={{ fontFamily: "Poppins, sans-serif" }}
+                style={{
+                  fontFamily: "Poppins, sans-serif",
+                  fontWeight: "400",
+                  fontSize: "15px",
+                }}
                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
               >
                 <span className="text-primary-400">{introduction.text[0]}</span>

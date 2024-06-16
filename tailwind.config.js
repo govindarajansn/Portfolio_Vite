@@ -12,9 +12,11 @@ export default {
         },
         colors: {
             primary: {
-                400: '#cbbde5',
-                500: '#5C546B',
-                600: '#CDBCEB',
+                400: '#f28482',
+                500: '#2ec4b6',
+                600: '#f6bd60',
+                700: '#f5cac3',
+                800: '#354f52'
             },
             grayscale: {
                 50: '#ffffff',

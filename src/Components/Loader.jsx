@@ -7,7 +7,7 @@ const Loader = () => {
         style={{ fontFamily: "SuperMario" }}
         className="absolute text-primary-400 text-xl"
       >
-        b
+        S
       </span>
       <div className="loader"></div>
     </div>

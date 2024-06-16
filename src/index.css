@@ -8,13 +8,13 @@
 }
 
 :root {
-  --color-primary: #292d44;
-  --color-secondary: #cbbde5;
-  --color-background: #6b5463;
+  --color-primary: #f5cac3;
+  --color-secondary: #fdfcdc;
+  --color-background: #354f52;
   --border-radius-large: 40% 60% 70% 30% / 40% 40% 60% 50%;
   --border-radius-medium: 70% 30% 50% 50% / 30% 30% 70% 70%;
   --border-radius-small: 100% 60% 60% 100% / 100% 100% 60% 60%;
-  --shadow-color: #292d44;
+  --shadow-color: #4a4e69;
   --scrollbar-display: none;
 }
 
@@ -230,4 +230,17 @@ polyline {
 .skills-section .skill-tab .col-4 {
   flex: 0 0 auto;
   width: 25.333333%;
+}
+
+
+/* Contacts */
+
+.social-links{
+  display: flex;
+    gap: 40px;
+}
+
+.social-icons{
+      width: 50px;
+        height: 50px;
 }

@@ -1,4 +1,7 @@
 import { m, LazyMotion, domAnimation } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const HeroText = () => {
   const name = "SNE ?";
@@ -45,6 +48,17 @@ const HeroText = () => {
           </m.div>
         </m.h1>
       </LazyMotion>
+      <div className="social-links">
+        <a href="https://github.com/govindarajansn">
+          <FaGithub className="social-icons text-primary-500 bounce" />
+        </a>
+        <a href="mailto:govindarajan.sn@northeastern.edu">
+          <MdEmail className="social-icons text-primary-500 bounce" />
+        </a>
+        <a href="https://www.linkedin.com/in/sneha-govindarajan/">
+          <FaLinkedin className="social-icons text-primary-500 bounce" />
+        </a>
+      </div>
     </div>
   );
 };

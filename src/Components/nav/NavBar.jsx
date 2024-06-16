@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { navLinks } from "../../Constants/constants";
 import { bl33hIcon, close, menu } from "../../assets";
 import { styles } from "../../styles.js";
+import EncryptButton from "../elements/EncryptButton";
 
 function Navbar() {
   const [active, setActive] = useState("");
@@ -37,11 +38,11 @@ function Navbar() {
             window.scrollTo(0, 0);
           }}
         >
-          <img
+          {/* <img
             src={bl33hIcon}
             alt={bl33hIcon}
             className="w-18 h-9 object-contain"
-          />
+          /> */}
           <p className="text-white text-[18px] font-bold cursor-pointer flex" />
         </Link>
         <ul
@@ -59,6 +60,11 @@ function Navbar() {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li>
+            <div className="grid place-content-center bg-neutral-900">
+              <EncryptButton />
+            </div>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img

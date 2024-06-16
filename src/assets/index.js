@@ -53,6 +53,8 @@ import web from './about/web.png';
 import backend from './about/backend.png';
 import frontend from './about/mobile.png';
 
+import resume from './resume/SnehaGovindarajan.pdf'
+
 //skills
 
 
@@ -149,5 +151,6 @@ export {
   react,
   sass,
   spring,
-  tailwind
+  tailwind,
+  resume
 };
