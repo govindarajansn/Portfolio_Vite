@@ -71,6 +71,7 @@ import {
   nextjs,
   nodejs,
   python,
+  saplogo,
   d3,
   oracle,
   react,
@@ -331,6 +332,7 @@ const skillsData = [
     skills: [
       { name: "React.js", src: react },
       { name: "Angular", src: angular },
+      { name: "SAP UI5", src: saplogo },
       { name: "Bootstrap", src: bootstrap },
       { name: "JQuery", src: jquery },
       {

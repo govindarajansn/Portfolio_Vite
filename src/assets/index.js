@@ -84,6 +84,7 @@ import react from './skills/REACT.png';
 import sass from './skills/sass.png';
 import spring from './skills/springboot.png';
 import tailwind from './skills/springboot.png';
+import saplogo from './skills/sapLogo.png';
 
 export {
   menu,
@@ -152,5 +153,6 @@ export {
   sass,
   spring,
   tailwind,
-  resume
+  resume,
+  saplogo
 };

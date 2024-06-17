@@ -24,12 +24,17 @@ const About = () => {
         >
           <div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[230px] min-w-[200px] flex justify-evenly items-center flex-col">
             <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-            <h2
-              className="text-white text-[20px] font-bold text-center text-primary-800 text-5xl sm:text-6xl md:text-5xl"
-              style={{ fontFamily: "Morganite Black" }}
+            <div
+              className="text-white text-[20px] text-center text-primary-800 text-6xl sm:text-8xl md:text-5xl"
+              style={{
+                textTransform: "uppercase",
+                fontFamily: "Poppins, sans-serif",
+                fontWeight: "600",
+                fontSize: "18px",
+              }}
             >
               {title}
-            </h2>
+            </div>
           </div>
         </motion.div>
       </Tilt>

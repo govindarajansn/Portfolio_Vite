@@ -25,11 +25,11 @@ function Career() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
               contentStyle={{
-                background: "#f5cac3",
+                background: "#f4f1de",
                 color: "#d9dcd6",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  #f5cac3",
+                borderRight: "7px solid  #f4f1de",
               }}
               date="2024 January - present"
               iconStyle={{ background: "#354f52", color: "#354f52" }}
@@ -43,7 +43,7 @@ function Career() {
               }
             >
               <h1
-                className="vertical-timeline-element-title text-4xl sm:text-4xl md:text-5xl text-primary-800"
+                className="vertical-timeline-element-title tracking-wider text-4xl sm:text-4xl md:text-5xl text-primary-800"
                 style={{ fontFamily: "Morganite Black" }}
               >
                 SAP America Inc.
@@ -73,11 +73,11 @@ function Career() {
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{
-                background: "#f5cac3",
+                background: "#f4f1de",
                 color: "#d9dcd6",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  #fff",
+                borderRight: "7px solid  #f4f1de",
               }}
               date="2022 September - present"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
@@ -91,7 +91,7 @@ function Career() {
               }
             >
               <h1
-                className="vertical-timeline-element-title text-4xl sm:text-5xl md:text-5xl text-primary-800"
+                className="vertical-timeline-element-title tracking-wider text-4xl sm:text-5xl md:text-5xl text-primary-800"
                 style={{ fontFamily: "Morganite Black" }}
               >
                 Northeastern University
@@ -122,11 +122,11 @@ function Career() {
               className="vertical-timeline-element--work"
               date="2020 August - 2022 August"
               contentStyle={{
-                background: "#f5cac3",
+                background: "#f4f1de",
                 color: "#d9dcd6",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  #fff",
+                borderRight: "7px solid  #f4f1de",
               }}
               iconStyle={{
                 background: "#fff",
@@ -144,7 +144,7 @@ function Career() {
               }
             >
               <h1
-                className="vertical-timeline-element-title text-4xl sm:text-4xl md:text-5xl text-primary-800"
+                className="vertical-timeline-element-title tracking-wider text-4xl sm:text-4xl md:text-5xl text-primary-800"
                 style={{ fontFamily: "Morganite Black" }}
               >
                 Virtusa
@@ -176,11 +176,11 @@ function Career() {
               className="vertical-timeline-element--work"
               date="June 2020 - August 2020"
               contentStyle={{
-                background: "#f5cac3",
+                background: "#f4f1de",
                 color: "#d9dcd6",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  #fff",
+                borderRight: "7px solid  #f4f1de",
               }}
               iconStyle={{
                 background: "#fff",
@@ -197,7 +197,7 @@ function Career() {
               }
             >
               <h1
-                className="vertical-timeline-element-title text-4xl sm:text-4xl md:text-5xl text-primary-800"
+                className="vertical-timeline-element-title tracking-wider text-4xl sm:text-4xl md:text-5xl text-primary-800"
                 style={{ fontFamily: "Morganite Black" }}
               >
                 Virtusa
@@ -207,7 +207,7 @@ function Career() {
                 style={{
                   textTransform: "uppercase",
                   fontFamily: "Poppins, sans-serif",
-                  fontWeight: "500",
+                  fontWeight: "600",
                 }}
               >
                 Associate Enginner, Intern
@@ -227,11 +227,11 @@ function Career() {
               className="vertical-timeline-element--work"
               date="2016 August- 2020 April"
               contentStyle={{
-                background: "#f5cac3",
+                background: "#f4f1de",
                 color: "#d9dcd6",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  #fff",
+                borderRight: "7px solid  #f4f1de",
               }}
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               // icon={<WorkIcon />}
@@ -245,7 +245,7 @@ function Career() {
               }
             >
               <h1
-                className="vertical-timeline-element-title text-4xl sm:text-4xl md:text-5xl text-primary-800"
+                className="vertical-timeline-element-title tracking-wider text-4xl sm:text-4xl md:text-5xl text-primary-800"
                 style={{ fontFamily: "Morganite Black" }}
               >
                 Anna University
