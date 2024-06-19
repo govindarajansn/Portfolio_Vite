@@ -56,7 +56,7 @@ function Career() {
                   fontWeight: "500",
                 }}
               >
-                Newton Square, PA
+                Software Developer Intern
               </h4>
               <p
                 className="text-primary-800"

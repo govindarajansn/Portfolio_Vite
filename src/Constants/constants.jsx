@@ -78,6 +78,19 @@ import {
   sass,
   spring,
   tailwind,
+  vuejs,
+  nuxtjs,
+  tailwindcss,
+  sapbtp,
+  sapcap,
+  kubernetes,
+  docker,
+  terraform,
+  threejs,
+  framermotion,
+  figma,
+  cloudFoundry,
+  postgreSql,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -169,10 +182,10 @@ export const SERVICES = [
 //   musicThmbnail,
 //   ticTacToeGame,
 
-const projects = [
+const frontendProjects = [
   {
     name: "3D Customizable Car",
-    description: "Customize your car using three.js and react",
+    description: "Customize your car using THREE.JS and REACT",
     image: carThumbnail,
     source_code_link: "https://github.com/govindarajansn/car-model-threejs",
     demo_link: "https://car-model-threejs.vercel.app/",
@@ -180,7 +193,7 @@ const projects = [
   {
     name: "Pawsitive",
     description:
-      "Explore a user-friendly Figma prototype for Pet's Social Gram",
+      "Explore a user-friendly FIGMA prototype for Pet's Social Gram",
     image: pawsitivePrototype,
     source_code_link:
       "https://www.figma.com/proto/5EfaQhTZ0r1VxAKGC48u9I/Sneha_Govindarajan?page-id=680%3A14&node-id=855-6428&viewport=268%2C728%2C0.09&t=sqUm23IN85gIahRj-1&scaling=scale-down",
@@ -189,69 +202,77 @@ const projects = [
   },
   {
     name: "FoodGram",
-    description: "Get your recipe in one click - Yaaaay :-;",
+    description: "Get your recipe in one click - Yaaaay :-; using ANGULAR",
     image: foodGramImg,
     source_code_link: "https://github.com/govindarajansn/cook-book-mealdb",
     demo_link: "https://cook-book-mealdb.vercel.app/",
   },
   {
-    name: "Technochronicle",
-    description: "Get all kind of blogs in one place",
-    image: teChronicle,
-    source_code_link:
-      "https://github.com/govindarajansn/techchronicles-backend-express",
-    demo_link: "https://github.com/govindarajansn/techchronicles-frontent-nuxt",
-  },
-  {
     name: "Tic-Tac-Toe 3D",
-    description: "Are you Bored! Just click and play",
+    description: "Are you Bored! Just click and play using REACT-THREE-FIBRE",
     image: ticTacToeGame,
     source_code_link: "https://github.com/govindarajansn/Tic-Tac-Toe-3D",
     demo_link: "https://tic-tac-toe-3d-snowy.vercel.app",
   },
   {
-    name: "Cloud Deployment",
-    description: "AWS CI/CD Web App with React and Node.js",
-    image: cloudThumbnail,
-    source_code_link: "https://github.com/csye-snehagovindarajan/webapp",
-    demo_link: "https://github.com/csye-snehagovindarajan/webapp",
-  },
-  {
     name: "Happify",
-    description: "Music app using spotify API",
+    description: "Music app using spotify API using REACT",
     image: musicThmbnail,
     source_code_link: "https://github.com/govindarajansn/Happify",
     demo_link: "https://happify-music-db.vercel.app/",
   },
   {
     name: "Huggy Buddy",
-    description: "Using Hugging Face API - Sentiment Analysis App",
+    description: "Using Hugging Face API - Sentiment Analysis App using REACT",
     image: huggyBuddy,
     source_code_link: "https://github.com/govindarajansn/HuggyBuddy",
     demo_link: "https://huggy-buddy.vercel.app/",
   },
+];
+
+const fullstackProjects = [
+  {
+    name: "Technochronicle",
+    description:
+      "Get all kind of blogs in one place using NUXT.JS & POSTGRE SQL",
+    image: teChronicle,
+    source_code_link:
+      "https://github.com/govindarajansn/techchronicles-backend-express",
+    demo_link: "https://github.com/govindarajansn/techchronicles-frontent-nuxt",
+  },
   {
     name: "Active Pay",
-    description: "Re-paying cred card bill and getting return rewards",
+    description:
+      "Re-paying cred card bill and gets rewards using REACT & MYSQL",
     image: creditCard,
     source_code_link:
       "https://github.com/neu-mis-info6150-fall-2022/final-project-quadsquad",
     demo_link: "",
   },
   {
-    name: "Travelling Salesman Problem",
-    description: "Here's the Optimized Solution for TSP",
+    name: "Online Book Store",
+    description:
+      "Fetch the Books using isbn, title, author using REACT & SPRING BOOT",
+    image: bookStore,
+    source_code_link: "https://github.com/govindarajansn/ScanbuyApp",
+    demo_link: "",
+  },
+];
+
+const backendCloud = [
+  {
+    name: "Travelling Salesman",
+    description: "Here's the Optimized Solution for TSP using Algorithms",
     image: tspThumbnail,
     source_code_link: "https://github.com/govindarajansn/FinalProject-INFO6205",
     demo_link: "",
   },
   {
-    name: "Online Book Store",
-    description:
-      "Fetch the Books using isbn, title, author from google books API",
-    image: bookStore,
-    source_code_link: "https://github.com/govindarajansn/ScanbuyApp",
-    demo_link: "",
+    name: "AWS CI/CD",
+    description: "Infrastructure deployment with Terraform and AWS cloud",
+    image: cloudThumbnail,
+    source_code_link: "https://github.com/csye-snehagovindarajan/webapp",
+    demo_link: "https://github.com/csye-snehagovindarajan/webapp",
   },
 ];
 
@@ -315,6 +336,21 @@ const careerData = [
   },
 ];
 
+// vuejs;
+// nuxtjs;
+// tailwindcss;
+// sapbtp;
+// sapcap;
+// kubernetes;
+// docker;
+// terraform;
+// threejs;
+// framermotion;
+// figma;
+// css
+// python
+// tailwind
+
 const skillsData = [
   {
     category: "Programming Languages",
@@ -322,33 +358,40 @@ const skillsData = [
       { name: "Java", src: java },
       { name: "JavaScript", src: javascript },
       { name: "HTML5", src: html5 },
-      { name: "C", src: cImg },
-      { name: "C++", src: cplus },
       { name: "SCSS", src: sass },
+      { name: "CSS", src: css },
+      { name: "Python", src: python },
+      { name: "JQuery", src: jquery },
     ],
   },
   {
-    category: "Frontend and Backend Framework",
+    category: "Frontend Framework",
     skills: [
       { name: "React.js", src: react },
       { name: "Angular", src: angular },
       { name: "SAP UI5", src: saplogo },
-      { name: "Bootstrap", src: bootstrap },
-      { name: "JQuery", src: jquery },
+      { name: "SAP CAP", src: sapcap },
+      { name: "Vue.js", src: vuejs },
+      { name: "Nuxt.js", src: nuxtjs },
       {
         name: "Next.js",
         src: nextjs,
         background: "beige",
       },
-      { name: "D3.js", src: d3 },
-      { name: "Express.js", src: expressjs },
-      { name: "Spring Boot", src: spring },
+      { name: "Three.js", src: threejs },
+      { name: "Framer", src: framermotion },
+      { name: "Bootstrap", src: bootstrap },
+      { name: "Tailwind", src: tailwind },
     ],
   },
   {
-    category: "Database",
+    category: "Backend Framework and Database",
     skills: [
+      { name: "Express.js", src: expressjs },
+      { name: "Node.js", src: nodejs },
+      { name: "Spring Boot", src: spring },
       { name: "MySQL", src: mysql },
+      { name: "postgre SQL", src: postgreSql },
       {
         name: "MongoDB",
         src: mongodb,
@@ -358,17 +401,25 @@ const skillsData = [
     ],
   },
   {
-    category: "Technologies",
+    category: "Cloud Technology",
     skills: [
       { name: "AWS", src: aws },
-      { name: "MS suite", src: microsoft },
-      { name: "Node.js", src: nodejs },
+      { name: "kubernetes", src: kubernetes },
+      { name: "Docker", src: docker },
+      { name: "Terraform", src: terraform },
+    ],
+  },
+  {
+    category: "Technologies",
+    skills: [
+      { name: "SAP BTP", src: sapbtp },
+      { name: "Figma", src: figma },
       {
         name: "GitHub",
         src: github,
         background: "beige",
       },
-      { name: "Linux", src: linux },
+      { name: "Jira", src: jira },
     ],
   },
 ];
@@ -384,7 +435,9 @@ export {
   markerSvg,
   media,
   memoji,
-  projects,
   careerData,
   skillsData,
+  frontendProjects,
+  fullstackProjects,
+  backendCloud,
 };

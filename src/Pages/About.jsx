@@ -48,7 +48,7 @@ const About = () => {
           <SectionTitle title="ABOUT ME" subtitle="Introduction" />
         </div>
         <div className="w-full flex flex-col-reverse sm:flex-row">
-          <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
+          <div className="w-full md:w-[50%] md:h-full flex  mt-10">
             <LazyMotion features={domAnimation} strict>
               <m.p
                 initial={{ opacity: 0 }}
@@ -62,7 +62,7 @@ const About = () => {
                 style={{
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: "400",
-                  fontSize: "15px",
+                  fontSize: "18px",
                 }}
                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
               >

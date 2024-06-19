@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-import { projects } from "../Constants/constants";
 import { githubIcon } from "../assets";
 import { styles } from "../styles";
+import {
+  frontendProjects,
+  fullstackProjects,
+  backendCloud,
+} from "../Constants/constants";
 
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
@@ -174,12 +178,29 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <div className="mt-5 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7 text-grayscale-50 w-full justify-items-center place-content-center">
+    <div className="mt-5 space-y-12 text-primary-700 text-grayscale-50 w-full justify-items-center place-content-center">
+      <CategorySection title="Frontend Projects" projects={frontendProjects} />
+      <CategorySection
+        title="Full-Stack Projects"
+        projects={fullstackProjects}
+      />
+      <CategorySection
+        title="Cloud and Backend Projects"
+        projects={backendCloud}
+      />
+    </div>
+  );
+};
+
+const CategorySection = ({ title, projects }) => (
+  <div>
+    <h2 className="text-3xl font-bold mb-5">{title}</h2>
+    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7">
       {projects.map((project, index) => (
         <ProjectCard key={`project-${index}`} index={index} {...project} />
       ))}
     </div>
-  );
-};
+  </div>
+);
 
 export default SectionWrapper(Works, "");

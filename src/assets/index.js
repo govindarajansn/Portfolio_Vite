@@ -70,7 +70,7 @@ import github from './skills/GITHUB.png';
 import html5 from './skills/HTML5.png';
 import java from './skills/java.png';
 import javascript from './skills/JAVASCRIPT.png';
-import jira from './skills/JAVASCRIPT.png';
+import jira from './skills/JIRA.png';
 import jquery from './skills/jquery.png';
 import linux from './skills/linux.png';
 import microsoft from './skills/microsoft.png';
@@ -85,6 +85,20 @@ import sass from './skills/sass.png';
 import spring from './skills/springboot.png';
 import tailwind from './skills/springboot.png';
 import saplogo from './skills/sapLogo.png';
+import vuejs from './skills/vuejs.png';
+import nuxtjs from './skills/nuxtjs.png';
+import tailwindcss from './skills/TAILWIND.png';
+import sapbtp from './skills/sap-btp.jpeg';
+import sapcap from './skills/sap-cap.png';
+import kubernetes from './skills/kubernetes.webp';
+import docker from './skills/docker.svg';
+import terraform from './skills/terraform.svg';
+import threejs from './skills/threejs.png';
+import framermotion from './skills/framer-motion.png';
+import figma from './skills/figma.webp'
+import cloudFoundry from './skills/cloudFoundry.jpeg';
+import postgreSql from './skills/postgreSql.jpeg'
+
 
 export {
   menu,
@@ -154,5 +168,18 @@ export {
   spring,
   tailwind,
   resume,
-  saplogo
+  saplogo,
+  vuejs,
+  nuxtjs,
+  tailwindcss,
+  sapbtp,
+  sapcap,
+  kubernetes,
+  docker,
+  terraform,
+  threejs,
+  framermotion,
+  figma,
+  cloudFoundry,
+  postgreSql
 };
