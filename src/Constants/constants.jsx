@@ -173,15 +173,6 @@ export const SERVICES = [
   },
 ];
 
-//  bookStore,
-//   carThumbnail,
-//   cloudThumbnail,
-//   creditCard,
-//   foodGramImg,
-//   huggyBuddy,
-//   musicThmbnail,
-//   ticTacToeGame,
-
 const frontendProjects = [
   {
     name: "3D Customizable Car",
@@ -191,7 +182,7 @@ const frontendProjects = [
     demo_link: "https://car-model-threejs.vercel.app/",
   },
   {
-    name: "Pawsitive",
+    name: "PawGram",
     description:
       "Explore a user-friendly FIGMA prototype for Pet's Social Gram",
     image: pawsitivePrototype,
@@ -202,7 +193,7 @@ const frontendProjects = [
   },
   {
     name: "FoodGram",
-    description: "Get your recipe in one click - Yaaaay :-; using ANGULAR",
+    description: "Get your recipe in one click using ANGULAR",
     image: foodGramImg,
     source_code_link: "https://github.com/govindarajansn/cook-book-mealdb",
     demo_link: "https://cook-book-mealdb.vercel.app/",
@@ -335,21 +326,6 @@ const careerData = [
     iconColor: "#fff",
   },
 ];
-
-// vuejs;
-// nuxtjs;
-// tailwindcss;
-// sapbtp;
-// sapcap;
-// kubernetes;
-// docker;
-// terraform;
-// threejs;
-// framermotion;
-// figma;
-// css
-// python
-// tailwind
 
 const skillsData = [
   {

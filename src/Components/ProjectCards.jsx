@@ -156,7 +156,16 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-3">
-          <h3 className="text-white font-bold text-2xl">{name}</h3>
+          <h3
+            className="text-white font-bold text-2xl"
+            style={{
+              fontFamily: "Poppins, sans-serif",
+              fontWeight: "500",
+              fontSize: "20px",
+            }}
+          >
+            {name}
+          </h3>
           <p className="mt-2 text-secondary text-[14px] leading-snug">
             {description}
           </p>
@@ -194,7 +203,16 @@ const Works = () => {
 
 const CategorySection = ({ title, projects }) => (
   <div>
-    <h2 className="text-3xl font-bold mb-5">{title}</h2>
+    <h2
+      className="text-3xl font-bold mb-5"
+      style={{
+        textTransform: "uppercase",
+        fontFamily: "Poppins, sans-serif",
+        fontWeight: "500",
+      }}
+    >
+      {title}
+    </h2>
     <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7">
       {projects.map((project, index) => (
         <ProjectCard key={`project-${index}`} index={index} {...project} />
