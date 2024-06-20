@@ -104,7 +104,7 @@ const SectionWrapper = (Component, idName) =>
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.1 }}
         className={""}
       >
         <span className="hash-span" id={idName}>
@@ -126,7 +126,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="p-5 rounded-lg sm:w-[280px] w-[80%] "
+      className="p-5 sm:p-5 rounded-lg w-full sm:w-[280px]"
     >
       <Tilt
         options={{
@@ -139,7 +139,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-[full] h-[full] md:h-[200px]  object-cover rounded-lg"
+            className="w-full h-auto md:h-[200px] object-cover rounded-lg"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
@@ -157,16 +157,15 @@ const ProjectCard = ({
 
         <div className="mt-3">
           <h3
-            className="text-white font-bold text-2xl"
+            className="text-white font-bold text-xl sm:text-2xl"
             style={{
               fontFamily: "Poppins, sans-serif",
               fontWeight: "500",
-              fontSize: "20px",
             }}
           >
             {name}
           </h3>
-          <p className="mt-2 text-secondary text-[14px] leading-snug">
+          <p className="mt-2 text-secondary text-sm sm:text-[14px] leading-snug">
             {description}
           </p>
         </div>
@@ -204,7 +203,7 @@ const Works = () => {
 const CategorySection = ({ title, projects }) => (
   <div>
     <h2
-      className="text-3xl font-bold mb-5"
+      className="text-3xl sm:text-3xl font-bold mb-5 ml-5"
       style={{
         textTransform: "uppercase",
         fontFamily: "Poppins, sans-serif",
@@ -213,7 +212,7 @@ const CategorySection = ({ title, projects }) => (
     >
       {title}
     </h2>
-    <div className="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-7">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
       {projects.map((project, index) => (
         <ProjectCard key={`project-${index}`} index={index} {...project} />
       ))}
