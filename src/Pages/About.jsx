@@ -110,7 +110,7 @@ const About = () => {
           scale: 1,
           speed: 450,
         }}
-        className="xs:w-[200px] w-full sm:w-[200px] md:w-[250px] lg:w-[300px] bg-primary-700 rounded-xl border-4 border-primary-700 cursor-pointer"
+        className="xs:w-[200px] w-full sm:w-[200px] md:w-[250px] lg:w-[350px] bg-primary-700 rounded-xl border-4 border-primary-700 cursor-pointer"
       >
         <motion.div
           variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
@@ -124,7 +124,7 @@ const About = () => {
                 textTransform: "uppercase",
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "600",
-                fontSize: "18px",
+                fontSize: "17px",
               }}
             >
               {title}
